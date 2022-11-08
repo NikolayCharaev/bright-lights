@@ -1,0 +1,15 @@
+.nav {
+    font-weight: 600;
+  &__list {
+    display: flex;
+  }
+  &__item {
+    &:not(:last-child) {
+      margin-right: 3.5rem;
+    }
+    transition: var(--transition);
+    &:hover{
+        color: var(--color-violet);
+    }
+  }
+}
