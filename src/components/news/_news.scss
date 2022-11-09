@@ -1,5 +1,4 @@
 .news {
-  margin-bottom: 11.2rem;
   &__inner {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -23,10 +22,13 @@
     padding: 1.8rem;
     background-color: var(--color-violet);
     border-radius: 1.7rem 0;
-    background-color: rgba(122, 102, 204, .7);
+    background-color: rgba(122, 102, 204, 0.7);
     line-height: 1.3rem;
     font-weight: 500;
-    
-   
+    transition: var(--transition);
+
+    &:hover {
+      background-color: rgba(122, 102, 204, 1);
+    }
   }
 }

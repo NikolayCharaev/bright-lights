@@ -3,20 +3,6 @@ import news1 from '../../images/news-1.jpg';
 import news2 from '../../images/news-2.jpg';
 import news3 from '../../images/news-3.jpg';
 const News = () => {
-  const news = [
-    {
-      image: '../../images/news-1.jpg',
-      title: 'Working on my upcoming full-lenth album that`s releasing later this year.',
-    },
-    {
-      image: '../../images/news-2.jpg',
-      title: 'Halloween vibes. Listen my new track!',
-    },
-    {
-      image: '../../images/news-3.jpg',
-      title: 'WarForLove is OUT NOW!! Stream it here!',
-    },
-  ];
   return (
     <div className="news">
       <div className="container">
