@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../../images/logo.png';
 import logoText from '../../images/logo-text.png';
-
 import play from '../../images/play.svg'
 
 import Nav from '../nav/Nav';

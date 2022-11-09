@@ -50,9 +50,26 @@
         fill: #000000;
     }
     .line{
+        display: block;
         width: 887px;
         background-color: rgba(255, 255, 255, 1);
         height: 1px;
+        position: relative;
+
+        &::before{
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: '';
+            width: 4.3rem;
+            height: 1px;
+            background-color: var(--color-violet);
+            &::after{
+                content: '';
+                background-color: var(--color-violet);
+                height: 20px;
+            }
+        }
     }
   }
 }
