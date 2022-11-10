@@ -10,9 +10,9 @@ const Company = () => {
       <div className="container">
         <div className="company__inner">
           <div className="company__content">
-            <div className="company__banner">
-              <img className="company__logo" src={banner} alt="" />
-              <h2 className="company__title">Bright Lights</h2>
+            <div className="company__banner bright-banner">
+              <img className="company__logo bright-logo" src={banner} alt="" />
+              <h2 className="company__title bright-title">Bright Lights</h2>
             </div>
             <div className="company__text">
               <p>

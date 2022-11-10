@@ -1,0 +1,78 @@
+.tracks {
+  margin-bottom: 180px;
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.75rem;
+  }
+
+  &__img {
+    border-radius: 50%;
+    border: 1.25rem solid rgba(122, 102, 204, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 27.125rem;
+    height: 27.125rem;
+    img {
+      border: 1.25rem solid rgba(122, 102, 204, 0.3);
+      width: 27.125rem;
+      padding: 1.25rem;
+
+      display: block;
+      border-radius: 50%;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .player {
+    max-width: 33.75rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    margin-bottom: 3.125rem;
+    &-timer {
+      display: flex;
+    }
+  }
+  .playlist {
+    display: grid;
+    gap: 20px;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+
+    .social__title {
+      margin-right: 40px;
+      font-weight: 600;
+      font-size: 24px;
+    }
+
+    .social__list {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+
+      a {
+        display: flex;
+        align-items: flex-end;
+        margin-right: 30px;
+        font-weight: 600;
+        font-size: 14px;
+
+
+        img { 
+            margin-right: 10px;
+        }
+      }
+    }
+  }
+}

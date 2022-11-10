@@ -3,7 +3,8 @@ import Header from './components/header/Header';
 import News from './components/news/News';
 import Company from './components/company/Company';
 import Quote from './components/quote/Quote';
-
+import LastTracks from './components/tracks/LastTracks';
+import Album from './components/album/Album';
 function App() {
   return (
     <>
@@ -11,6 +12,8 @@ function App() {
       <News />
       <Company/>
       <Quote/>
+      <LastTracks/>
+      <Album/>
     </>
   );
 }
