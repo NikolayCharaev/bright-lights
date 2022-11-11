@@ -4,16 +4,14 @@ import logoText from '../../images/logo-text.png';
 import play from '../../images/play.svg'
 
 import Nav from '../nav/Nav';
+import Logo from './Logo';
 
 const Header = () => {
   return (
     <header className="header">
       <div className="container">
         <div className="header__inner">
-          <div className="header__logo">
-            <img className="header__logo-img" src={logo} alt="logo" />
-            <img className="header__logo-text" src={logoText} alt="logo" />
-          </div>
+          <Logo/>
           <Nav />
         </div>
         <section className="header__content">

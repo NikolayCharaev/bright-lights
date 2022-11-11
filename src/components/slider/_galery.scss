@@ -91,7 +91,7 @@
 .slick-prev {
   background: url('../../images/arrow-left.svg') center center no-repeat !important;
   opacity: 0.5;
-  left: -50px;
+  left: -50px !important;
   &::after {
     content: '';
     opacity: 0.5;

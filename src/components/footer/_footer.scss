@@ -1,0 +1,61 @@
+.footer {
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__logo {
+    margin-bottom: 60px;
+  }
+
+  .artist__data {
+    text-align: right;
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+
+    color: var(--color-white);
+    span {
+      margin-left: 30px;
+      font-weight: 400;
+    }
+
+    .artist-email{
+    margin-top: 10px;
+    }
+  }
+
+  .artist__links{ 
+    display: flex;
+    width: 510px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    .artist__links-item{
+        background-color: var(--color-dark);
+        padding: 10px;
+        border-radius: 50%;
+    }
+    .artist__link { 
+        padding: 10px;
+        background-color: var(--color-violet);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+  }
+
+
+  &__copyright{
+    color: var(--color-white);
+    opacity: .5;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+}
