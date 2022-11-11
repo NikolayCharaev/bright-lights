@@ -43,6 +43,9 @@
   .playlist {
     display: grid;
     gap: 20px;
+    li{
+        list-style: decimal;   
+    }
   }
 
   &__social {
