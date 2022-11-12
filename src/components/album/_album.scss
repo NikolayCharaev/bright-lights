@@ -2,10 +2,10 @@
   margin-bottom: 180px;
   &__inner {
     display: grid;
+    // grid-template-columns: repeat(auto-fill, 300px);
     gap: 30px;
 
     img {
-    //   display: block;
       max-width: 540px;
       object-fit: cover;
       width: 100%;
@@ -40,10 +40,6 @@
   &__card {
     position: relative;
     background-color: rgba(28, 27, 33, 0.8);
-
-
-
-
     &:hover {
       &::after {
         content: '';
@@ -55,8 +51,6 @@
         top: 0;
         left: 0;
       }
-
-    
     }
   }
 
@@ -82,5 +76,53 @@
     &:hover {
       opacity: 1;
     }
+  }
+
+
+
+  //slider
+  &__slider{ 
+    display: none;
+  }
+}
+
+// MEDIA
+
+.album {
+  @media (max-width: 958px) {
+    &__inner {
+      display: none;
+    }
+    &__card{ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // max-width: 600px;
+    }
+    &__img { 
+      border-radius: 20px !important;
+      width: 100%;
+      max-width: 600px;
+      max-height: 450px;
+      margin: 0 auto;
+    }
+   &__slider{ 
+    display: block;
+   }
+   .go-slider{ 
+    display: none;
+  }
+
+  .slick-dots{ 
+    li{
+      background-color: rgba(255,255,255, .6);
+      
+    }
+  }
+  .slick-active{
+    button { 
+      color: white;
+    }
+  }
   }
 }

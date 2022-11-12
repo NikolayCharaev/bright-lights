@@ -1,5 +1,9 @@
 .tracks {
   margin-bottom: 180px;
+
+  @media (max-width: 958px) {
+    margin-bottom: 50px;
+  }
   &__inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

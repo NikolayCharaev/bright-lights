@@ -16,8 +16,8 @@ function App() {
       <Quote/>
       <LastTracks/>
       <Album/>
-      <Galery/>
-      <Footer/>
+      {/* <Galery/> */}
+      {/* <Footer/> */}
     </>
   );
 }
