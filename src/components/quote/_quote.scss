@@ -1,5 +1,4 @@
 .quote {
-  position: relative;
   margin-bottom: 16.5rem;
   &__inner {
     padding: 50px 80px;
@@ -8,6 +7,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 3.7rem;
+    position: relative;
   }
   &__text {
     font-weight: 400;
@@ -36,17 +36,44 @@
   }
 
   &__img {
+    position: absolute;
+    right: 70px;
+    top: -50px;
     img {
-      position: absolute;
+      display: block;
+      width: 100%;
       max-width: 370px;
       border-radius: 1.8rem 0;
-      top: -50px;
-      right: 450px;
     }
   }
 }
 
-
 //MEDIA
+.quote {
+  @media (max-width: 952px) {
+    &__text {
+      font-size: 0.8rem;
+    }
 
+    &__img {
+      img {
+        max-width: 300px;
+      }
+    }
+  }
 
+  @media (max-width: 758px) {
+    &__inner {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 80px;
+      flex-wrap: wrap;
+    }
+
+    &__img {
+      position: static;
+      // max-width: 200px;
+      top: 10px;
+    }
+  }
+}
