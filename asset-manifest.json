@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bright-lights/static/css/main.b4d80bc2.css",
-    "main.js": "/bright-lights/static/js/main.61ed8787.js",
+    "main.css": "/bright-lights/static/css/main.b29bb89b.css",
+    "main.js": "/bright-lights/static/js/main.8bdaeefc.js",
     "static/media/achievements-two.png": "/bright-lights/static/media/achievements-two.7b9b2717edf6bdb4c879.png",
     "static/media/achievements-one.png": "/bright-lights/static/media/achievements-one.bc0965173205dabca83a.png",
     "static/media/image-1.png": "/bright-lights/static/media/image-1.cefca7b0f7e9716642dc.png",
@@ -32,11 +32,11 @@
     "static/media/arrow-left.svg": "/bright-lights/static/media/arrow-left.092d003822a6620338bb.svg",
     "index.html": "/bright-lights/index.html",
     "static/media/play.svg": "/bright-lights/static/media/play.4780f17ae226dfeda94bab6b9d743ab6.svg",
-    "main.b4d80bc2.css.map": "/bright-lights/static/css/main.b4d80bc2.css.map",
-    "main.61ed8787.js.map": "/bright-lights/static/js/main.61ed8787.js.map"
+    "main.b29bb89b.css.map": "/bright-lights/static/css/main.b29bb89b.css.map",
+    "main.8bdaeefc.js.map": "/bright-lights/static/js/main.8bdaeefc.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4d80bc2.css",
-    "static/js/main.61ed8787.js"
+    "static/css/main.b29bb89b.css",
+    "static/js/main.8bdaeefc.js"
   ]
 }
