@@ -58,4 +58,32 @@
     margin-bottom: 40px;
     text-transform: uppercase;
   }
+
+  .logo{
+    position: relative;
+  }
+}
+
+
+//MEDIA 
+
+.footer { 
+  @media(max-width:800px) { 
+    .artist__data{
+      font-size: 15px;
+    }
+  }
+
+  @media(max-width:563px) { 
+    .artist__data{
+      font-size: 12px;
+    }
+
+    .artist__links{ 
+      display: grid;
+      grid-template-columns: repeat(2,3fr);
+      grid-gap: 10px;
+      width: 123px;
+    }
+  }
 }

@@ -7,9 +7,6 @@
   border-bottom: 1px solid #000000;
   position: relative;
 
-
-
-
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   &__inner {
     display: flex;
@@ -46,7 +43,6 @@
 
 // MEDIA
 .header {
-
   @media (max-width: 983px) {
     background-position: top center;
     .burger {
@@ -56,11 +52,11 @@
     }
   }
 
-  @media(max-width: 578px) { 
+  @media (max-width: 578px) {
     height: 44.5rem;
   }
 
-  @media(max-width: 391px) { 
+  @media (max-width: 391px) {
     background-position: bottom center;
   }
 
@@ -70,11 +66,7 @@
       left: 20px;
       top: 20px;
     }
-
- 
   }
-
-
   &__title {
     font-size: 2rem;
 

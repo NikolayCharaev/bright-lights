@@ -36,9 +36,38 @@ const Galery = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    afterChange: function(index) {
-        console.log(index)
-    }
+    responsive: [
+      {
+        breakpoint: 1267,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 980,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 512,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+          arrows: false
+       
+        }
+      },
+
+    ]
   };
 
   return (
