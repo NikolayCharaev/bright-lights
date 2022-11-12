@@ -43,8 +43,8 @@
   .playlist {
     display: grid;
     gap: 20px;
-    li{
-        list-style: decimal;   
+    li {
+      list-style: decimal;
     }
   }
 
@@ -71,11 +71,50 @@
         font-weight: 600;
         font-size: 14px;
 
-
-        img { 
-            margin-right: 10px;
+        img {
+          margin-right: 10px;
         }
       }
     }
+  }
+}
+
+//MEDIA
+.tracks {
+  @media (max-width: 1140px) {
+  }
+  @media (max-width: 1100px) {
+    &__inner {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  @media (max-width: 600px) {
+    .player {
+      max-width: 22rem;
+    }
+    .playlist {
+      gap: 10px;
+      &__item {
+        font-size: 0.8rem;
+      }
+    }
+    &__img{
+      width: 15rem;
+      height: 15rem;
+      img{
+        width: 15rem;
+      }
+    }
+    .social {
+      &__title {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  @media (max-width: 531px) {
+
   }
 }

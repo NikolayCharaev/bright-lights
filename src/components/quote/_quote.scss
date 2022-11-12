@@ -51,6 +51,7 @@
 //MEDIA
 .quote {
   @media (max-width: 952px) {
+    margin-bottom: 8rem;
     &__text {
       font-size: 0.8rem;
     }
@@ -75,5 +76,8 @@
       // max-width: 200px;
       top: 10px;
     }
+  }
+  @media (max-width: 600px) {
+    margin-bottom: 4rem;
   }
 }
