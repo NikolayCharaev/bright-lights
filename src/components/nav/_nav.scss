@@ -1,5 +1,6 @@
 .nav {
-    font-weight: 600;
+  font-weight: 600;
+
   &__list {
     display: flex;
   }
@@ -8,8 +9,29 @@
       margin-right: 3.5rem;
     }
     transition: var(--transition);
-    &:hover{
-        color: var(--color-violet);
+    &:hover {
+      color: var(--color-violet);
+    }
+  }
+}
+
+//MEDIA
+
+.nav {
+  @media (max-width: 983px) {
+    display: none;
+  }
+
+  &__list {
+    display: flex;
+    @media (max-width: 983px) {
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    @media (max-width: 1260px) {
+      margin-right: 2.5rem;
     }
   }
 }
