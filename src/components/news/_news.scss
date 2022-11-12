@@ -46,4 +46,9 @@
       justify-content: center;
     }
   }
+  @media (max-width: 1127px) {
+    &__inner {
+      bottom: 1rem;
+    }
+  }
 }
