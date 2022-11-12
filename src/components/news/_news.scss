@@ -6,8 +6,11 @@
     bottom: 10rem;
     gap: 1.8rem;
   }
-  &__image {
+
+  &__card {
     position: relative;
+  }
+  &__image {
     display: block;
     border-radius: 1.7rem 0;
     overflow: hidden;
@@ -29,6 +32,18 @@
 
     &:hover {
       background-color: rgba(122, 102, 204, 1);
+    }
+  }
+}
+
+//MEDIA
+
+.news {
+  @media (max-width: 1134px) {
+    &__inner {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
 }
