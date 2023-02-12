@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bright-lights/static/css/main.0183cef4.css",
-    "main.js": "/bright-lights/static/js/main.c4909af2.js",
-    "static/media/achievements-two.png": "/bright-lights/static/media/achievements-two.7b9b2717edf6bdb4c879.png",
-    "static/media/achievements-one.png": "/bright-lights/static/media/achievements-one.bc0965173205dabca83a.png",
-    "static/media/image-1.png": "/bright-lights/static/media/image-1.cefca7b0f7e9716642dc.png",
-    "static/media/image-2.png": "/bright-lights/static/media/image-2.960e88e3bf49f7a3a620.png",
-    "static/media/quote.png": "/bright-lights/static/media/quote.9c9e729e9c207949b8e1.png",
-    "static/media/player-girl.png": "/bright-lights/static/media/player-girl.466832dd4729005eeaa8.png",
-    "static/media/header-bg.jpg": "/bright-lights/static/media/header-bg.917c92106beea1a1ae57.jpg",
-    "static/media/slider-3.png": "/bright-lights/static/media/slider-3.21c2f01f9ad74efe4e58.png",
-    "static/media/image-3.png": "/bright-lights/static/media/image-3.0126ad9639389d23d6a9.png",
-    "static/media/slider-2.png": "/bright-lights/static/media/slider-2.c6f4c4455df5a2835c53.png",
-    "static/media/image-5.png": "/bright-lights/static/media/image-5.3940dbf2fa19d9af5945.png",
-    "static/media/slider-1.png": "/bright-lights/static/media/slider-1.098ba30d72641a64d4ce.png",
-    "static/media/image-4.png": "/bright-lights/static/media/image-4.ff854e8802feeeaf0746.png",
-    "static/media/news-1.jpg": "/bright-lights/static/media/news-1.c00bf7be6915ef8bc097.jpg",
-    "static/media/news-3.jpg": "/bright-lights/static/media/news-3.f92c25c234484d502bf5.jpg",
-    "static/media/news-2.jpg": "/bright-lights/static/media/news-2.90011c2344967e5dd265.jpg",
+    "main.css": "/bright-lights/static/css/main.3f4dcfdb.css",
+    "main.js": "/bright-lights/static/js/main.9b79344c.js",
+    "static/media/achievements-one.png": "/bright-lights/static/media/achievements-one.0b841c2feb0356f6157b.png",
+    "static/media/achievements-two.png": "/bright-lights/static/media/achievements-two.180b1401b6f592528d23.png",
+    "static/media/image-1.png": "/bright-lights/static/media/image-1.86021aadde9f3f0c10c1.png",
+    "static/media/image-2.png": "/bright-lights/static/media/image-2.7190049619b78f6fa24a.png",
+    "static/media/quote.png": "/bright-lights/static/media/quote.38ed6968affe75da644b.png",
+    "static/media/player-girl.png": "/bright-lights/static/media/player-girl.886b5d9099114bb86f33.png",
+    "static/media/slider-3.png": "/bright-lights/static/media/slider-3.0c62b2f88567ef0673bc.png",
+    "static/media/image-3.png": "/bright-lights/static/media/image-3.1d5b2dbd16d37df6cf72.png",
+    "static/media/image-5.png": "/bright-lights/static/media/image-5.800ec26626684aab0f83.png",
+    "static/media/slider-2.png": "/bright-lights/static/media/slider-2.8ab94236a7a62cf35518.png",
+    "static/media/slider-1.png": "/bright-lights/static/media/slider-1.ead62ef23cde433f6a38.png",
+    "static/media/image-4.png": "/bright-lights/static/media/image-4.0501e1f98ac4540a883c.png",
+    "static/media/header-bg.jpg": "/bright-lights/static/media/header-bg.884b596f1cadb6ee257a.jpg",
+    "static/media/news-1.jpg": "/bright-lights/static/media/news-1.5157724a6a5cf362a172.jpg",
+    "static/media/news-2.jpg": "/bright-lights/static/media/news-2.760cb64a7c297627ffe5.jpg",
+    "static/media/news-3.jpg": "/bright-lights/static/media/news-3.99c0d9e7dcd8c340de79.jpg",
     "static/media/icon-3.svg": "/bright-lights/static/media/icon-3.857809613418a9703c22204910ab4948.svg",
     "static/media/icon-1.svg": "/bright-lights/static/media/icon-1.99aaddbee1bb17d24b7b373793adff5a.svg",
     "static/media/slick.svg": "/bright-lights/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -32,11 +32,11 @@
     "static/media/arrow-left.svg": "/bright-lights/static/media/arrow-left.092d003822a6620338bb.svg",
     "index.html": "/bright-lights/index.html",
     "static/media/play.svg": "/bright-lights/static/media/play.4780f17ae226dfeda94bab6b9d743ab6.svg",
-    "main.0183cef4.css.map": "/bright-lights/static/css/main.0183cef4.css.map",
-    "main.c4909af2.js.map": "/bright-lights/static/js/main.c4909af2.js.map"
+    "main.3f4dcfdb.css.map": "/bright-lights/static/css/main.3f4dcfdb.css.map",
+    "main.9b79344c.js.map": "/bright-lights/static/js/main.9b79344c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0183cef4.css",
-    "static/js/main.c4909af2.js"
+    "static/css/main.3f4dcfdb.css",
+    "static/js/main.9b79344c.js"
   ]
 }
